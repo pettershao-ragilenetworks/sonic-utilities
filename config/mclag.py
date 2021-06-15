@@ -101,7 +101,7 @@ def get_intf_vrf_bind_unique_ip(db, interface_name, interface_type):
     else:
         return ""
 
-
+#
 ######
 #
 # 'mclag' group ('config mclag ...')
