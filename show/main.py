@@ -1100,7 +1100,7 @@ def version(verbose):
     click.echo("HwSKU: {}".format(platform_info['hwsku']))
     click.echo("ASIC: {}".format(platform_info['asic_type']))
     click.echo("ASIC Count: {}".format(platform_info['asic_count']))
-    click.echo("Serial Number: {}".format(chassis_info['serial']))
+    click.echo("Serial Number: {}".format(chassis_info['serial_num']))
     click.echo("Model Number: {}".format(chassis_info['model']))
     click.echo("Hardware Revision: {}".format(chassis_info['revision']))
     click.echo("Uptime: {}".format(sys_uptime.stdout.read().strip()))
